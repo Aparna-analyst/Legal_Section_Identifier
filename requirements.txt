@@ -1,0 +1,7 @@
+streamlit
+sentence-transformers
+torch
+transformers
+scikit-learn
+bs4
+requests
