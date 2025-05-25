@@ -6,7 +6,7 @@ st.set_page_config(page_title="Legal Section Identifier", layout="wide")
 st.title("📜 Legal Section Identifier")
 st.write("Enter an incident description, and we’ll find the most relevant section from the Bharatiya Nyaya Sanhita (BNS).")
 
-data = load_data("data/bns_sections.json")
+data = load_data("bns_sections.json")
 
 user_input = st.text_area("📝 Describe the incident here:")
 
