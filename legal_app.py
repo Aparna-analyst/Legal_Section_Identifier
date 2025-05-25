@@ -15,7 +15,7 @@ if st.button("🔍 Find Relevant Section"):
         result = find_best_match(user_input, data)
 
         st.success(f"📘 **Matched Section:** {result['section_number']} - {result['title']}")
-        st.markdown(f"🔗 [View Full Section Online]({result['url']})", unsafe_allow_html=True)
+        
 
         st.subheader("📜 Full Legal Description")
         st.markdown(result["description"].replace("\n", "<br>"), unsafe_allow_html=True)
